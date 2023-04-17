@@ -1,0 +1,21 @@
+.header-one .logo-area {
+    padding: 8px 0 !important;
+    
+  }
+  .top-bar {
+    padding: 8px 0;
+    background: #ebebeb;
+    position: fixed;
+    display: none;
+}
+span.site_name
+{
+    line-height: 3px;
+    font-size: 30px;
+    font-weight: 800;
+    position: relative;
+    top: 6px;
+    font-family: "Montserrat", sans-serif;
+    color: #393939;
+}
+
