@@ -6,13 +6,13 @@
 -->
 
 <!-- 
-THEME: Constra - Construction Html5 Template
+THEME: Naya - Construction Html5 Template
 VERSION: 1.0.0
 AUTHOR: Themefisher
 
-HOMEPAGE: https://themefisher.com/products/constra-construction-template/
-DEMO: https://demo.themefisher.com/constra/
-GITHUB: https://github.com/themefisher/Constra-Bootstrap-Construction-Template
+HOMEPAGE: https://themefisher.com/products/Naya-construction-template/
+DEMO: https://demo.themefisher.com/Naya/
+GITHUB: https://github.com/themefisher/Naya-Bootstrap-Construction-Template
 
 WEBSITE: https://themefisher.com
 TWITTER: https://twitter.com/themefisher
@@ -26,7 +26,7 @@ FACEBOOK: https://www.facebook.com/themefisher
   <!-- Basic Page Needs
 ================================================== -->
   <meta charset="utf-8">
-  <title>NAYA - Engineering PROJECT Management</title>
+  <title>Naya </title>
 
   <!-- Mobile Specific Metas
 ================================================== -->
@@ -34,11 +34,11 @@ FACEBOOK: https://www.facebook.com/themefisher
   <meta name="description" content="Construction Html5 Template">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
   <meta name=author content="Themefisher">
-  <meta name=generator content="Themefisher Constra HTML Template v1.0">
+  <meta name=generator content="Themefisher Naya HTML Template v1.0">
 
   <!-- Favicon
 ================================================== -->
-<link rel="icon" type="image/png" href="images/Social_Profile.jpg">
+  <link rel="icon" type="image/png" href="images/favicon.png">
 
   <!-- CSS
 ================================================== -->
@@ -58,55 +58,97 @@ FACEBOOK: https://www.facebook.com/themefisher
   <link rel="stylesheet" href="css/custom.css">
 
   <style>
-    .shuffle-btn-group label.active {
-    color: #212121;
-    background:#cab26a !important;
+    @font-face{
+font-family: "ExpoArabic-Bold";
+
+src: url(fonts/Expo-Arabic-Bold.ttf); /* IE9 Compat Modes */
+src: url(fonts/Expo-Arabic-Bold.ttf) format('embedded-opentype'), /* IE6-IE8 */
+   url(fonts/Expo-Arabic-Bold.ttf) format('woff'), /* Modern Browsers */
+   url(fonts/Expo-Arabic-Bold.ttf)  format('truetype'), /* Safari, Android, iOS */
+   url(fonts/Expo-Arabic-Bold.ttf) format('svg'); /* Legacy iOS */
+
+
+}
+@font-face{
+font-family: "ExpoArabic-Book";
+
+
+
+src: url(fonts/Expo-Arabic-Book.ttf); /* IE9 Compat Modes */
+src: url(fonts/Expo-Arabic-Book.ttf) format('embedded-opentype'), /* IE6-IE8 */
+   url(fonts/Expo-Arabic-Book.ttf) format('woff'), /* Modern Browsers */
+   url(fonts/Expo-Arabic-Book.ttf)  format('truetype'), /* Safari, Android, iOS */
+   url(fonts/Expo-Arabic-Book.ttf) format('svg'); /* Legacy iOS */
+}
+
+span,h1,h2,h3,p,label,li,a{
+            font-family: ExpoArabic-Bold !important;
+
+}
+.shuffle-btn-group 
+{
+word-spacing: 8px;
+text-align: center !important;
+}
+.shuffle-btn-group label.active {
+color: #212121;
+background:#cab26a !important;
 }
 .shuffle-btn-group{
-    color: #212121;
-    border:3px solid #cab26a !important;
+color: #212121;
+border:3px solid #cab26a !important;
 }
 .btn-primary {
-    background: #cab26a !important;
-    color:#000 !important;
+background: #cab26a !important;
+color:#000 !important;
 }
 .quote-item .quote-text {
-    margin: 0 0 10px;
-    display: inline-block;
-    padding: 0 40px 30px 60px;
-    color: #555;
-    position: relative;
-    font-size: 16px;
-    font-style: italic;
+margin: 0 0 10px;
+display: inline-block;
+padding: 0 40px 30px 60px;
+color: #555;
+position: relative;
+font-size: 16px;
+font-style: italic;
 }
 ul.navbar-nav > li:hover > a,ul.dropdown-menu > li:hover > a, ul.navbar-nav > li.active > a,.slick-dots li button:hover:before, .slick-dots .slick-dots li button:focus:before, .slick-dots li.slick-active button:before,
 .quote-author,.quote-item .quote-text:before {
-  
-    color:#cab26a !important;
+
+color:#cab26a !important;
 }
 .footer .widget-title
 {
-  border-left: 3px solid #cab26a !important;
+border-left: 3px solid #cab26a !important;
 }
 
 
 ul.language-menu li {
-    position: relative;
-    float: none;
-    margin-left: 0;
-    border-right: 0px !important;
-    padding-right: 1px !important;
-    margin-right: 2px !important;
-    text-align: center !important;
+position: relative;
+float: none;
+margin-left: 0;
+border-right: 0px !important;
+padding-right: 1px !important;
+margin-right: 2px !important;
+text-align: center !important;
 }
 
 .accordion-group .card {
-    border-radius: 0;
-    margin-bottom: 0px;
-    /* border-bottom: 1px solid #dfdfdf !important; */
-    border: 0px !important;
+border-radius: 0;
+margin-bottom: 0px;
+/* border-bottom: 1px solid #dfdfdf !important; */
+border: 0px !important;
 }
-  </style>
+.into-title,.into-sub-title {
+
+text-align: right !important;
+white-space: nowrap !important;
+
+}
+.header-one .navbar-collapse {
+padding-left: 200px !important;
+}
+</style>
+
 
 </head>
 <body>
@@ -117,7 +159,7 @@ ul.language-menu li {
           <div class="row">
               <div class="col-lg-8 col-md-8">
                 <ul class="top-info text-center text-md-left">
-                    <li><i class="fas fa-map-marker-alt"></i> <p class="info-text">9051 Constra Incorporate, USA</p>
+                    <li><i class="fas fa-map-marker-alt"></i> <p class="info-text">9051 Naya Incorporate, UAE</p>
                     </li>
                 </ul>
               </div>
@@ -157,7 +199,7 @@ ul.language-menu li {
             <div class="logo col-lg-3 text-center text-lg-left mb-3 mb-md-5 mb-lg-0">
                 <a class="d-block" href="index.html">
                   <img loading="lazy" src="images/Social_Profile.jpg" alt="Naya">
-                  <span class="site_name ml-2 mt-2">NAYA</span>
+                  <span class="site_name ml-2 mt-2">النايا</span>
                 </a>
             </div><!-- logo end -->
   
@@ -166,7 +208,7 @@ ul.language-menu li {
                   <li>
                     <div class="info-box">
                       <div class="info-box-content">
-                          <p class="info-box-title">Call Us</p>
+                          <p class="info-box-title">اتصل بنا</p>
                           <p class="info-box-subtitle">(+9) 847-291-4353</p>
                       </div>
                     </div>
@@ -174,7 +216,7 @@ ul.language-menu li {
                   <li>
                     <div class="info-box">
                       <div class="info-box-content">
-                          <p class="info-box-title">Email Us</p>
+                          <p class="info-box-title">راسلنا بالبريد الإلكترونى</p>
                           <p class="info-box-subtitle">office@Naya.com</p>
                       </div>
                     </div>
@@ -192,13 +234,13 @@ ul.language-menu li {
                   </li> -->
                     <ul class="nav navbar-nav mr-auto">
                       <li class="info-box dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" style="color: #000 !important;" data-toggle="dropdown">language <i class="fa fa-angle-down"></i></a>
+                        <a href="#" class="nav-link dropdown-toggle" style="color: #000 !important;" data-toggle="dropdown">اللغة <i class="fa fa-angle-down"></i></a>
                         <ul class="dropdown-menu language-menu" role="menu" style="
                         position:absolute !important;
                         float:left !important;
                         ">
-                  <li><a href="about-ar.html">عربى</a></li>
-                  <li><a href="about.html">English</a></li>
+                          <li><a href="about-ar.html">عربى</a></li>
+                          <li><a href="about.html">English</a></li>
                         </ul>
                         </li>
                         </ul>
@@ -215,7 +257,7 @@ ul.language-menu li {
     <div class="container">
         <div class="row">
           <div class="col-lg-12">
-              <nav class="navbar navbar-expand-lg navbar-dark p-0">
+              <nav class="col-md-8 navbar navbar-expand-lg navbar-dark p-0" style="left:400px !important;">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -225,37 +267,37 @@ ul.language-menu li {
                       <li class="nav-item dropdown active">
                           <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"
                           style="  color: #cab26a !important;"
-                          >Home <i class="fa fa-angle-down"></i></a>
+                          >الرئيسية <i class="fa fa-angle-down"></i></a>
                           <ul class="dropdown-menu" role="menu">
-                            <li class="active"><a href="index.html">Home One</a></li>
+                            <li class="active"><a href="index-ar.html">الصفحة الرئيسية</a></li>
                             <!-- <li><a href="index-2.html">Home Two</a></li> -->
                           </ul>
                       </li>
 
                       <li class="nav-item dropdown">
-                          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Company <i class="fa fa-angle-down"></i></a>
+                          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">عن الشركة <i class="fa fa-angle-down"></i></a>
                           <ul class="dropdown-menu" role="menu">
-                            <li><a href="about.html">About Us</a></li>
-                            <li><a href="team.html">Our People</a></li>
-                            <li><a href="testimonials.html">Testimonials</a></li>
+                            <li><a href="about-ar.html">عن الشركة</a></li>
+                            <li><a href="team-ar.html">موظفونا</a></li>
+                            <li><a href="testimonials.html">التعليقات</a></li>
                             <!-- <li><a href="faq.html">Faq</a></li>
                             <li><a href="pricing.html">Pricing</a></li> -->
                           </ul>
                       </li>
               
                       <li class="nav-item dropdown">
-                          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Projects <i class="fa fa-angle-down"></i></a>
+                          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">المشاريع <i class="fa fa-angle-down"></i></a>
                           <ul class="dropdown-menu" role="menu">
-                            <li><a href="#project-area">Projects All</a></li>
+                            <li><a href="#project-area">جميع المشاريع</a></li>
                             <!-- <li><a href="projects.html">Projects All</a></li> -->
                             <!-- <li><a href="projects-single.html">Projects Single</a></li> -->
                           </ul>
                       </li>
               
                       <li class="nav-item dropdown">
-                          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Services <i class="fa fa-angle-down"></i></a>
+                          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">الخدمات <i class="fa fa-angle-down"></i></a>
                           <ul class="dropdown-menu" role="menu">
-                            <li><a href="services.html">Services All</a></li>
+                            <li><a href="services-ar.html">جميع الخدمات</a></li>
                           </ul>
                       </li>
               
@@ -284,7 +326,7 @@ ul.language-menu li {
                           </ul>
                       </li>
                -->
-                      <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                      <li class="nav-item"><a class="nav-link" href="contact-ar.html">اتصل بنا</a></li>
                     </ul>
                 </div>
               </nav>
@@ -293,13 +335,13 @@ ul.language-menu li {
         </div>
         <!--/ Row end -->
 
-        <div class="nav-search">
+        <div class="col-md-4 nav-search" style="left:10px !important;">
           <span id="search"><i class="fa fa-search"></i></span>
         </div><!-- Search end -->
 
-        <div class="search-block" style="display: none;">
+        <div class="search-block" style="display:none; position: relative;">
           <label for="search-field" class="w-100 mb-0">
-            <input type="text" class="form-control" id="search-field" placeholder="Type what you want and enter">
+            <input type="text" class="form-control" id="search-field" placeholder="قم بكتابة ماتريد وابحث عنه">
           </label>
           <span class="search-close">&times;</span>
         </div><!-- Site search end -->
@@ -316,12 +358,12 @@ ul.language-menu li {
         <div class="row">
           <div class="col-lg-12">
               <div class="banner-heading">
-                <h1 class="banner-title">About</h1>
+                <h1 class="banner-title">عن الشركة</h1>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center">
-                      <li class="breadcrumb-item"><a href="#">Home</a></li>
-                      <li class="breadcrumb-item"><a href="#">company</a></li>
-                      <li class="breadcrumb-item active" aria-current="page">About Us</li>
+                      <li class="breadcrumb-item"><a href="#">الرئيسية</a></li>
+                      <li class="breadcrumb-item"><a href="#">الشركة</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">عن الشركة</li>
                     </ol>
                 </nav>
               </div>
@@ -335,12 +377,12 @@ ul.language-menu li {
   <div class="container">
     <div class="row">
         <div class="col-lg-6">
-          <h3 class="column-title">Who We Are</h3>
+          <h3 class="column-title text-center">نبذه عن شركتنا</h3>
       
           <blockquote><p>
             
-            At Naya Project Management, we rely on a qualified and experienced engineering team to design engineering villas and supervise construction works, in line with customer requirements and required engineering and construction standards, in order to achieve the best results and ensure quality and reliability in our services."
-          </p></blockquote>
+            في نايا لإدارة المشاريع ، نعتمد على فريق هندسي مؤهل وذو خبرة لتصميم الفيلات الهندسية والإشراف على أعمال البناء ، بما يتماشى مع متطلبات العملاء والمعايير الهندسية والإنشائية المطلوبة ، من أجل تحقيق أفضل النتائج وضمان الجودة والموثوقية في خدماتنا . "
+                    </p></blockquote>
 
         </div><!-- Col end -->
 
@@ -442,8 +484,8 @@ ul.language-menu li {
   <div class="container">
     <div class="row text-center">
         <div class="col-lg-12">
-          <h2 class="section-title">Quality Service</h2>
-          <h3 class="section-sub-title">Professional Team</h3>
+          <h2 class="section-title">خدمة متميزة</h2>
+          <h3 class="section-sub-title">فريق من المحترفين</h3>
         </div>
     </div><!--/ Title row end -->
 
@@ -572,16 +614,18 @@ ul.language-menu li {
     <div class="container">
       <div class="row justify-content-between">
         <div class="col-lg-4 col-md-6 footer-widget footer-about">
-          <h3 class="widget-title">About Us</h3>
+          <h3 class="widget-title">عن الشركة</h3>
 
           <img loading="lazy" width="60px" class="footer-logo" src="images/Social_Profile.jpg" alt="Naya">
           <span class="site_name ml-2 mt-2" style="
            position: relative !important;
+           color: #fff;
   top: -4px !important;
-          ">NAYA</span>
+          "> النايا </span>
 
-            <p> We Rely on a qualified and experienced engineering team
-            Who we are: "At Naya Project Management, we rely on a qualified and experienced engineering team to design engineering villas and supervise construction works, in line with customer requirements and required engineering and construction standards, in order to achieve the best results and ensure quality and reliability in our services."</p>
+            <p> 
+              نعتمد على فريق هندسي مؤهل وذوي خبرة من نحن: "في نايا لإدارة المشاريع ، نعتمد على فريق هندسي مؤهل وذوي خبرة لتصميم الفيلات الهندسية والإشراف على أعمال البناء ، بما يتماشى مع متطلبات العملاء والمعايير الهندسية والبناء المطلوبة ، في من أجل تحقيق أفضل النتائج وضمان الجودة والموثوقية في خدماتنا ".
+            </p>
        
           <div class="footer-social">
             <ul>
@@ -597,29 +641,28 @@ ul.language-menu li {
         </div><!-- Col end -->
 
         <div class="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
-          <h3 class="widget-title">Working Hours</h3>
+          <h3 class="widget-title">ساعات العمل</h3>
           <div class="working-hours">
-            We work 7 days a week, every day excluding major holidays. Contact us if you have an emergency, with our
-            Hotline and Contact form.
-            <br><br> Monday - Friday: <span class="text-right">10:00 - 16:00 </span>
-            <br> Saturday: <span class="text-right">12:00 - 15:00</span>
-            <br> Sunday and holidays: <span class="text-right">09:00 - 12:00</span>
+            نعمل 7 أيام في الأسبوع ، كل يوم باستثناء أيام العطل الكبرى. اتصل بنا إذا كانت لديك حالة طارئة ، من خلال نموذج الخط الساخن والاتصال الخاص بنا
+            <br><br> 10:00 - 16:00  &nbsp;&nbsp;&nbsp;&nbsp;<span class="text-right pl-5"> :الإثنين - الجمعة</span>
+            <br>  12:00 - 15:00<span class="text-right">:السبت</span>
+            <br>  09:00 - 12:00<span class="text-right">:الأحد والعطلات</span>
           </div>
         </div><!-- Col end -->
 
         <div class="col-lg-3 col-md-6 mt-5 mt-lg-0 footer-widget">
-          <h3 class="widget-title">Services</h3>
+          <h3 class="widget-title">الخدمات</h3>
           <ul class="list-arrow">
                 
                 
                
 
-            <li><a href="service-single.html">Design and Engineering Services</a></li>
-            <li><a href="service-single-2.html">Construction & Implementation Services</a></li>
-            <li><a href="service-single-3.html">Project Management Services</a></li>
-            <li><a href="service-single-4.html">Supplier Selection Services</a></li>
-            <li><a href="service-single-5.html">Account Management Services</a></li>
-            <li><a href="service-single-6.html">Legal Services</a></li>
+            <li><a href="service-single-ar.html">خدمات التصميم والهندسة</a></li>
+            <li><a href="service-single-2-ar.html">خدمات البناء والتنفيذ</a></li>
+            <li><a href="service-single-3-ar.html">خدمات إدارة المشاريع</a></li>
+            <li><a href="service-single-4-ar.html">خدمة اختيار الموردين</a></li>
+            <li><a href="service-single-5-ar.html">خدمات إدارة الحساب</a></li>
+            <li><a href="service-single-6-ar.html">الخدمات القانونية</a></li>
           </ul>
         </div><!-- Col end -->
       </div><!-- Row end -->
@@ -632,23 +675,13 @@ ul.language-menu li {
         <div class="col-md-8" >
           <div class="copyright-info" style="text-align: end !important; 
           font-weight: bold;">
-            <span>Copyright &copy; <script>
+            <span>جميع الحقوق محفوظة  &copy; <script>
                 document.write(new Date().getFullYear())
-              </script>, Designed &amp; Developed by <a href="#">Eng / Mohamed Khairy</a></span>
+              </script>, تصميم &amp; وتطوير بواسطة <a href="#"> مهندس / محمد خيرى </a></span>
           </div>
         </div>
 
-        <div class="col-md-4" style="display: none;">
-          <div class="footer-menu text-center text-md-right">
-            <ul class="list-unstyled">
-              <li><a href="about.html">About</a></li>
-              <li><a href="team.html">Our people</a></li>
-              <li><a href="faq.html">Faq</a></li>
-              <li><a href="news-left-sidebar.html">Blog</a></li>
-              <li><a href="pricing.html">Pricing</a></li>
-            </ul>
-          </div>
-        </div>
+     
       </div><!-- Row end -->
 
       <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top position-fixed">
