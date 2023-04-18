@@ -315,8 +315,12 @@ a:focus {
 }
 
 .column-title-small {
-  font-size: 20px;
-  margin: 0 0 25px;
+ 
+  font-size: 31px !important;
+  margin: 0 0 25px !important;
+  text-align: center !important;
+  background: #e1c26a !important;
+  padding: 5px !important;
 }
 
 /* Page content title */
