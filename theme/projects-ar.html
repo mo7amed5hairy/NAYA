@@ -26,7 +26,8 @@ FACEBOOK: https://www.facebook.com/themefisher
   <!-- Basic Page Needs
 ================================================== -->
   <meta charset="utf-8">
-  <title>NAYA - Engineering Projects Management</title>
+  <title> النايا - لادارة المشاريع الهندسية 
+  </title>
 
   <!-- Mobile Specific Metas
 ================================================== -->
@@ -56,58 +57,100 @@ FACEBOOK: https://www.facebook.com/themefisher
   <!-- Template styles-->
   <link rel="stylesheet" href="css/style.css">
 
+
   <style>
-    .shuffle-btn-group label.active {
-    color: #212121;
-    background:#cab26a !important;
+    @font-face{
+font-family: "ExpoArabic-Bold";
+
+src: url(fonts/Expo-Arabic-Bold.ttf); /* IE9 Compat Modes */
+src: url(fonts/Expo-Arabic-Bold.ttf) format('embedded-opentype'), /* IE6-IE8 */
+   url(fonts/Expo-Arabic-Bold.ttf) format('woff'), /* Modern Browsers */
+   url(fonts/Expo-Arabic-Bold.ttf)  format('truetype'), /* Safari, Android, iOS */
+   url(fonts/Expo-Arabic-Bold.ttf) format('svg'); /* Legacy iOS */
+
+
+}
+@font-face{
+font-family: "ExpoArabic-Book";
+
+
+
+src: url(fonts/Expo-Arabic-Book.ttf); /* IE9 Compat Modes */
+src: url(fonts/Expo-Arabic-Book.ttf) format('embedded-opentype'), /* IE6-IE8 */
+   url(fonts/Expo-Arabic-Book.ttf) format('woff'), /* Modern Browsers */
+   url(fonts/Expo-Arabic-Book.ttf)  format('truetype'), /* Safari, Android, iOS */
+   url(fonts/Expo-Arabic-Book.ttf) format('svg'); /* Legacy iOS */
+}
+
+span,h1,h2,h3,p,label,li,a{
+            font-family: ExpoArabic-Bold !important;
+
+}
+.shuffle-btn-group 
+{
+word-spacing: 8px;
+text-align: center !important;
+}
+.shuffle-btn-group label.active {
+color: #212121;
+background:#cab26a !important;
 }
 .shuffle-btn-group{
-    color: #212121;
-    border:3px solid #cab26a !important;
+color: #212121;
+border:3px solid #cab26a !important;
 }
 .btn-primary {
-    background: #cab26a !important;
-    color:#000 !important;
+background: #cab26a !important;
+color:#000 !important;
 }
 .quote-item .quote-text {
-    margin: 0 0 10px;
-    display: inline-block;
-    padding: 0 40px 30px 60px;
-    color: #555;
-    position: relative;
-    font-size: 16px;
-    font-style: italic;
+margin: 0 0 10px;
+display: inline-block;
+padding: 0 40px 30px 60px;
+color: #555;
+position: relative;
+font-size: 16px;
+font-style: italic;
 }
 ul.navbar-nav > li:hover > a,ul.dropdown-menu > li:hover > a, ul.navbar-nav > li.active > a,.slick-dots li button:hover:before, .slick-dots .slick-dots li button:focus:before, .slick-dots li.slick-active button:before,
 .quote-author,.quote-item .quote-text:before {
-  
-    color:#cab26a !important;
+
+color:#cab26a !important;
 }
 .footer .widget-title
 {
-  border-left: 3px solid #cab26a !important;
+border-left: 3px solid #cab26a !important;
 }
 
 
 ul.language-menu li {
-    position: relative;
-    float: none;
-    margin-left: 0;
-    border-right: 0px !important;
-    padding-right: 1px !important;
-    margin-right: 2px !important;
-    text-align: center !important;
+position: relative;
+float: none;
+margin-left: 0;
+border-right: 0px !important;
+padding-right: 1px !important;
+margin-right: 2px !important;
+text-align: center !important;
 }
 
 .accordion-group .card {
-    border-radius: 0;
-    margin-bottom: 0px;
-    /* border-bottom: 1px solid #dfdfdf !important; */
-    border: 0px !important;
+border-radius: 0;
+margin-bottom: 0px;
+/* border-bottom: 1px solid #dfdfdf !important; */
+border: 0px !important;
 }
-.project-img-container .img-fluid {
-  max-width: 100%;
-  height: 300px !important;
+.into-title,.into-sub-title {
+
+text-align: right !important;
+white-space: nowrap !important;
+
+}
+.header-one .navbar-collapse {
+padding-left: 200px !important;
+}
+.img-fluid {
+max-width: 100%;
+height: 300px !important;
 }
 span.site_name {
   line-height: 3px;
@@ -118,18 +161,12 @@ span.site_name {
   font-family: "Montserrat", sans-serif;
   color: #393939;
 }
-  </style>
+</style>
 </head>
 <body>
   <div class="body-inner">
 
-    <div id="top-bar" class="top-bar high-bar" style="  background-color: transparent !important;">
-      <div class="container">
-        
-        <!--/ Content row end -->
-      </div>
-      <!--/ Container end -->
-  </div>
+   
   <!--/ Topbar end -->
 <!-- Header start -->
 <header id="header" class="header-one">
@@ -140,7 +177,7 @@ span.site_name {
           <div class="logo col-lg-3 text-center text-lg-left mb-3 mb-md-5 mb-lg-0">
               <a class="d-block" href="index.html">
                 <img loading="lazy" src="images/Social_Profile.jpg" alt="Naya">
-                <span class="site_name ml-2 mt-2">NAYA</span>
+                <span class="site_name ml-2 mt-2">النايا</span>
               </a>
           </div><!-- logo end -->
 
@@ -149,7 +186,7 @@ span.site_name {
                 <li>
                   <div class="info-box">
                     <div class="info-box-content">
-                        <p class="info-box-title">Call Us</p>
+                        <p class="info-box-title">اتصل بنا</p>
                         <p class="info-box-subtitle">(+9) 847-291-4353</p>
                     </div>
                   </div>
@@ -157,7 +194,7 @@ span.site_name {
                 <li>
                   <div class="info-box">
                     <div class="info-box-content">
-                        <p class="info-box-title">Email Us</p>
+                        <p class="info-box-title">راسلنا بالبريد الإلكترونى</p>
                         <p class="info-box-subtitle">office@Naya.com</p>
                     </div>
                   </div>
@@ -175,16 +212,16 @@ span.site_name {
                 </li> -->
                   <ul class="nav navbar-nav mr-auto">
                     <li class="info-box dropdown">
-                      <a href="#" class="nav-link dropdown-toggle" style="color: #000 !important;" data-toggle="dropdown">language <i class="fa fa-angle-down"></i></a>
+                      <a href="#" class="nav-link dropdown-toggle" style="color: #000 !important;" data-toggle="dropdown">اللغة <i class="fa fa-angle-down"></i></a>
                       <ul class="dropdown-menu language-menu" role="menu" style="
                       position:absolute !important;
                       float:left !important;
                       ">
-    <li><a href="projects-ar.html">عربى</a></li>
-    <li><a href="projects.html">English</a></li>
+                        <li><a href="projects-ar.html">عربى</a></li>
+                        <li><a href="projects.html">English</a></li>
                       </ul>
                       </li>
-                      </ul>
+                  </ul>
               </ul><!-- Ul end -->
               
           </div><!-- header right end -->
@@ -198,77 +235,55 @@ span.site_name {
   <div class="container">
       <div class="row">
         <div class="col-lg-12">
-            <nav class="navbar navbar-expand-lg navbar-dark p-0">
+            <nav class="col-md-8 navbar navbar-expand-lg navbar-dark p-0" style="left:400px !important;">
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
               </button>
               
               <div id="navbar-collapse" class="collapse navbar-collapse">
-                  <ul class="nav navbar-nav mr-auto">
-                    <li class="nav-item dropdown active">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"
-                        style="  color: #cab26a !important;"
-                        >Home <i class="fa fa-angle-down"></i></a>
-                        <ul class="dropdown-menu" role="menu">
-                          <li class="active"><a href="index.html">Home One</a></li>
-                          <!-- <li><a href="index-2.html">Home Two</a></li> -->
-                        </ul>
-                    </li>
+                <ul class="nav navbar-nav mr-auto">
+         
+                  <li class="nav-item"><a class="nav-link" href="contact-ar.html">اتصل بنا</a></li>
 
-                    <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Company <i class="fa fa-angle-down"></i></a>
-                        <ul class="dropdown-menu" role="menu">
-                          <li><a href="about.html">About Us</a></li>
-                          <li><a href="team.html">Our People</a></li>
-                          <li><a href="testimonials.html">Testimonials</a></li>
-                          <!-- <li><a href="faq.html">Faq</a></li>
-                          <li><a href="pricing.html">Pricing</a></li> -->
-                        </ul>
-                    </li>
-            
-                    <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Projects <i class="fa fa-angle-down"></i></a>
-                        <ul class="dropdown-menu" role="menu">
-                          <li><a href="#project-area">Projects All</a></li>
-                          <!-- <li><a href="projects.html">Projects All</a></li> -->
-                          <!-- <li><a href="projects-single.html">Projects Single</a></li> -->
-                        </ul>
-                    </li>
-            
-                    <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Services <i class="fa fa-angle-down"></i></a>
-                        <ul class="dropdown-menu" role="menu">
-                          <li><a href="services.html">Services All</a></li>
-                        </ul>
-                    </li>
-            
-                    <!-- <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Features <i class="fa fa-angle-down"></i></a>
-                        <ul class="dropdown-menu" role="menu">
-                          <li><a href="typography.html">Typography</a></li>
-                          <li><a href="404.html">404</a></li>
-                          <li class="dropdown-submenu">
-                              <a href="#!" class="dropdown-toggle" data-toggle="dropdown">Parent Menu</a>
-                              <ul class="dropdown-menu">
-                                <li><a href="#!">Child Menu 1</a></li>
-                                <li><a href="#!">Child Menu 2</a></li>
-                                <li><a href="#!">Child Menu 3</a></li>
-                              </ul>
-                          </li>
-                        </ul>
-                    </li>
-            
-                    <li class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">News <i class="fa fa-angle-down"></i></a>
-                        <ul class="dropdown-menu" role="menu">
-                          <li><a href="news-left-sidebar.html">News Left Sidebar</a></li>
-                          <li><a href="news-right-sidebar.html">News Right Sidebar</a></li>
-                          <li><a href="news-single.html">News Single</a></li>
-                        </ul>
-                    </li>
-             -->
-                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                  </ul>
+                  
+                  <li class="nav-item dropdown">
+                      <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">الخدمات <i class="fa fa-angle-down"></i></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="services-ar.html">جميع الخدمات</a></li>
+                      </ul>
+                  </li>
+
+
+                      <li class="nav-item dropdown">
+                      <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">المشاريع <i class="fa fa-angle-down"></i></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="projects-ar.html">جميع المشاريع</a></li>
+                        <!-- <li><a href="projects.html">Projects All</a></li> -->
+                        <!-- <li><a href="projects-single.html">Projects Single</a></li> -->
+                      </ul>
+                  </li>
+                  
+                  <li class="nav-item dropdown">
+                      <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">عن الشركة <i class="fa fa-angle-down"></i></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a href="about.html">عن الشركة</a></li>
+                        <li><a href="team.html">موظفونا</a></li>
+                        <li><a href="testimonials.html">التعليقات</a></li>
+                        <!-- <li><a href="faq.html">Faq</a></li>
+                        <li><a href="pricing.html">Pricing</a></li> -->
+                      </ul>
+                  </li>
+
+                    <li class="nav-item dropdown active">
+                      <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown"
+                      style="  color: #cab26a !important;"
+                      >الرئيسية <i class="fa fa-angle-down"></i></a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li class="active"><a href="index-ar.html">الصفحة الرئيسية</a></li>
+                        <!-- <li><a href="index-2.html">Home Two</a></li> -->
+                      </ul>
+                  </li>
+                </ul>
               </div>
             </nav>
         </div>
@@ -276,13 +291,13 @@ span.site_name {
       </div>
       <!--/ Row end -->
 
-      <div class="nav-search">
+      <div class="col-md-4 nav-search" style="left:10px !important;">
         <span id="search"><i class="fa fa-search"></i></span>
       </div><!-- Search end -->
 
-      <div class="search-block" style="display: none;">
+      <div class="search-block" style="display:none; position: relative;">
         <label for="search-field" class="w-100 mb-0">
-          <input type="text" class="form-control" id="search-field" placeholder="Type what you want and enter">
+          <input type="text" class="form-control" id="search-field" placeholder="قم بكتابة ماتريد وابحث عنه">
         </label>
         <span class="search-close">&times;</span>
       </div><!-- Site search end -->
@@ -299,12 +314,12 @@ span.site_name {
         <div class="row">
           <div class="col-lg-12">
               <div class="banner-heading">
-                <h1 class="banner-title">Project</h1>
+                <h1 class="banner-title">مشروعات</h1>
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb justify-content-center">
-                      <li class="breadcrumb-item"><a href="#">Home</a></li>
-                      <li class="breadcrumb-item"><a href="#">Project</a></li>
-                      <li class="breadcrumb-item active" aria-current="page">All Projects</li>
+                      <li class="breadcrumb-item"><a href="#">الرئيسية</a></li>
+                      <li class="breadcrumb-item"><a href="#">مشاريع</a></li>
+                      <li class="breadcrumb-item active" aria-current="page">جميع المشروعات</li>
                     </ol>
                 </nav>
               </div>
@@ -318,8 +333,9 @@ span.site_name {
   <div class="container">
     <div class="row text-center">
       <div class="col-lg-12">
-        <h2 class="section-title">Work of Excellence</h2>
-        <h3 class="section-sub-title">All Projects</h3>
+        <h2 class="section-title">
+          عمل متميز</h2>
+        <h3 class="section-sub-title">جميع المشروعات</h3>
       </div>
     </div>
     <!--/ Title row end -->
@@ -328,25 +344,25 @@ span.site_name {
       <div class="col-12">
         <div class="shuffle-btn-group">
           <label class="active" for="all">
-            <input type="radio" name="shuffle-filter" id="all" value="all" checked="checked">Show All
+            <input type="radio" name="shuffle-filter" id="all" value="all" checked="checked">جميع التصميمات 
           </label>
           <label for="commercial">
-            <input type="radio" name="shuffle-filter" id="commercial" value="commercial">Design1
+            <input type="radio" name="shuffle-filter" id="commercial" value="commercial">تصميم1
           </label>
           <label for="education">
-            <input type="radio" name="shuffle-filter" id="education" value="education">Design2
+            <input type="radio" name="shuffle-filter" id="education" value="education">تصميم2
           </label>
           <label for="government">
-            <input type="radio" name="shuffle-filter" id="government" value="government">Design3
+            <input type="radio" name="shuffle-filter" id="government" value="government">تصميم3
           </label>
           <label for="infrastructure">
-            <input type="radio" name="shuffle-filter" id="infrastructure" value="infrastructure">Design4
+            <input type="radio" name="shuffle-filter" id="infrastructure" value="infrastructure">تصميم4
           </label>
           <label for="residential">
-            <input type="radio" name="shuffle-filter" id="residential" value="residential">Design5
+            <input type="radio" name="shuffle-filter" id="residential" value="residential">تصميم4
           </label>
           <label for="healthcare">
-            <input type="radio" name="shuffle-filter" id="healthcare" value="healthcare">Design6
+            <input type="radio" name="shuffle-filter" id="healthcare" value="healthcare">تصميم5
           </label>
         </div><!-- project filter end -->
 
@@ -460,7 +476,7 @@ span.site_name {
 
       <div class="col-12">
         <div class="general-btn text-center">
-          <a class="btn btn-primary" href="projects.html">View All Projects</a>
+          <a class="btn btn-primary" href="projects.html">استعرض جميع المشروعات</a>
         </div>
       </div>
 
@@ -469,86 +485,90 @@ span.site_name {
   <!--/ Container end -->
 </section><!-- Project area end -->
 
-  <footer id="footer" class="footer bg-overlay">
-    <div class="footer-main">
-      <div class="container">
-        <div class="row justify-content-between">
-          <div class="col-lg-4 col-md-6 footer-widget footer-about">
-            <h3 class="widget-title">About Us</h3>
-            <img loading="lazy" width="200px" class="footer-logo" src="images/footer-logo.png" alt="Constra">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor inci done idunt ut
-              labore et dolore magna aliqua.</p>
-            <div class="footer-social">
-              <ul>
-                <li><a href="https://facebook.com/themefisher" aria-label="Facebook"><i
-                      class="fab fa-facebook-f"></i></a></li>
-                <li><a href="https://twitter.com/themefisher" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                </li>
-                <li><a href="https://instagram.com/themefisher" aria-label="Instagram"><i
-                      class="fab fa-instagram"></i></a></li>
-                <li><a href="https://github.com/themefisher" aria-label="Github"><i class="fab fa-github"></i></a></li>
-              </ul>
-            </div><!-- Footer social end -->
-          </div><!-- Col end -->
+<footer id="footer" class="footer bg-overlay">
+  <div class="footer-main">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-lg-4 col-md-6 footer-widget footer-about">
+          <h3 class="widget-title">عن الشركة</h3>
 
-          <div class="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
-            <h3 class="widget-title">Working Hours</h3>
-            <div class="working-hours">
-              We work 7 days a week, every day excluding major holidays. Contact us if you have an emergency, with our
-              Hotline and Contact form.
-              <br><br> Monday - Friday: <span class="text-right">10:00 - 16:00 </span>
-              <br> Saturday: <span class="text-right">12:00 - 15:00</span>
-              <br> Sunday and holidays: <span class="text-right">09:00 - 12:00</span>
-            </div>
-          </div><!-- Col end -->
+          <img loading="lazy" width="60px" class="footer-logo" src="images/Social_Profile.jpg" alt="Naya">
+          <span class="site_name ml-2 mt-2" style="
+           position: relative !important;
+           color: #fff;
+  top: -4px !important;
+          "> النايا </span>
 
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0 footer-widget">
-            <h3 class="widget-title">Services</h3>
-            <ul class="list-arrow">
-              <li><a href="service-single.html">Pre-Construction</a></li>
-              <li><a href="service-single.html">General Contracting</a></li>
-              <li><a href="service-single.html">Construction Management</a></li>
-              <li><a href="service-single.html">Design and Build</a></li>
-              <li><a href="service-single.html">Self-Perform Construction</a></li>
+            <p> 
+              نعتمد على فريق هندسي مؤهل وذوي خبرة من نحن: "في نايا لإدارة المشاريع ، نعتمد على فريق هندسي مؤهل وذوي خبرة لتصميم الفيلات الهندسية والإشراف على أعمال البناء ، بما يتماشى مع متطلبات العملاء والمعايير الهندسية والبناء المطلوبة ، في من أجل تحقيق أفضل النتائج وضمان الجودة والموثوقية في خدماتنا ".
+            </p>
+       
+          <div class="footer-social">
+            <ul>
+              <li><a href="https://facebook.com/themefisher" aria-label="Facebook"><i
+                    class="fab fa-facebook-f"></i></a></li>
+              <li><a href="https://twitter.com/themefisher" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              </li>
+              <li><a href="https://instagram.com/themefisher" aria-label="Instagram"><i
+                    class="fab fa-instagram"></i></a></li>
+              <li><a href="https://github.com/themefisher" aria-label="Github"><i class="fab fa-github"></i></a></li>
             </ul>
-          </div><!-- Col end -->
-        </div><!-- Row end -->
-      </div><!-- Container end -->
-    </div><!-- Footer main end -->
+          </div><!-- Footer social end -->
+        </div><!-- Col end -->
 
-    <div class="copyright">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6">
-            <div class="copyright-info">
-              <span>Copyright &copy; <script>
-                  document.write(new Date().getFullYear())
-                </script>, Designed &amp; Developed by <a href="https://themefisher.com">Themefisher</a></span>
-            </div>
+        <div class="col-lg-4 col-md-6 footer-widget mt-5 mt-md-0">
+          <h3 class="widget-title">ساعات العمل</h3>
+          <div class="working-hours">
+            نعمل 7 أيام في الأسبوع ، كل يوم باستثناء أيام العطل الكبرى. اتصل بنا إذا كانت لديك حالة طارئة ، من خلال نموذج الخط الساخن والاتصال الخاص بنا
+            <br><br> 10:00 - 16:00  &nbsp;&nbsp;&nbsp;&nbsp;<span class="text-right pl-5"> :الإثنين - الجمعة</span>
+            <br>  12:00 - 15:00<span class="text-right">:السبت</span>
+            <br>  09:00 - 12:00<span class="text-right">:الأحد والعطلات</span>
           </div>
+        </div><!-- Col end -->
 
-          <div class="col-md-6">
-            <div class="footer-menu text-center text-md-right">
-              <ul class="list-unstyled">
-                <li><a href="about.html">About</a></li>
-                <li><a href="team.html">Our people</a></li>
-                <li><a href="faq.html">Faq</a></li>
-                <li><a href="news-left-sidebar.html">Blog</a></li>
-                <li><a href="pricing.html">Pricing</a></li>
-              </ul>
-            </div>
+        <div class="col-lg-3 col-md-6 mt-5 mt-lg-0 footer-widget">
+          <h3 class="widget-title">الخدمات</h3>
+          <ul class="list-arrow">
+                
+                
+               
+
+            <li><a href="service-single-ar.html">خدمات التصميم والهندسة</a></li>
+            <li><a href="service-single-2-ar.html">خدمات البناء والتنفيذ</a></li>
+            <li><a href="service-single-3-ar.html">خدمات إدارة المشاريع</a></li>
+            <li><a href="service-single-4-ar.html">خدمة اختيار الموردين</a></li>
+            <li><a href="service-single-5-ar.html">خدمات إدارة الحساب</a></li>
+            <li><a href="service-single-6-ar.html">الخدمات القانونية</a></li>
+          </ul>
+        </div><!-- Col end -->
+      </div><!-- Row end -->
+    </div><!-- Container end -->
+  </div><!-- Footer main end -->
+
+  <div class="copyright" style="background-color: #cab26a !important;">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-8" >
+          <div class="copyright-info" style="text-align: end !important; 
+          font-weight: bold;">
+            <span>جميع الحقوق محفوظة  &copy; <script>
+                document.write(new Date().getFullYear())
+              </script>, تصميم &amp; وتطوير بواسطة <a href="#"> مهندس / محمد خيرى </a></span>
           </div>
-        </div><!-- Row end -->
-
-        <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top position-fixed">
-          <button class="btn btn-primary" title="Back to Top">
-            <i class="fa fa-angle-double-up"></i>
-          </button>
         </div>
 
-      </div><!-- Container end -->
-    </div><!-- Copyright end -->
-  </footer><!-- Footer end -->
+     
+      </div><!-- Row end -->
+
+      <div id="back-to-top" data-spy="affix" data-offset-top="10" class="back-to-top position-fixed">
+        <button class="btn btn-primary" title="Back to Top">
+          <i class="fa fa-angle-double-up"></i>
+        </button>
+      </div>
+
+    </div><!-- Container end -->
+  </div><!-- Copyright end -->
+</footer><!-- Footer end -->
 
 
   <!-- Javascript Files
